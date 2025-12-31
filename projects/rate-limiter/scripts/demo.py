@@ -179,8 +179,8 @@ async def demo_fixed_window_edge_case():
             # In real scenario, would wait 60 seconds
 
     console.print(f"\n[bold red]Total allowed: {total_allowed}/10[/bold red]")
-    console.print("[dim]In production, requests at :59 and :01 could both succeed,")
-    console.print("allowing 10 requests in 62 seconds despite 5/minute limit![/dim]\n")
+    console.print("[dim]In production, requests at :59 and :01 could both succeed,[/dim]")
+    console.print("[dim]allowing 10 requests in 62 seconds despite 5/minute limit![/dim]\n")
     await asyncio.sleep(3)
 
 
