@@ -8,6 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+venv
 
 # Claude
 .claude/
+
+# django po
+*.po
+*.mo
